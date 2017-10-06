@@ -4,7 +4,7 @@ Extremely simple Clojure library that rolls a set of dice for you. This is simpl
 
 Check out the `dice-roller.core` namespace for more information.
 
-You can run the transcriptor repls with `lein repls`.
+You can run the transcriptor files with `lein transcriptor`, thanks to [lein-transcriptor][].
 
 The post for this repository can be found on [my blog][]. A video of me writing this repository is on [YouTube][].
 
@@ -22,3 +22,4 @@ Do what you want. Learn as much as you can. Unlicense more software.
 [transcriptor]: https://github.com/cognitect-labs/transcriptor
 [my blog]: https://oli.me.uk/2017/10/06/an-introduction-to-transcriptor/
 [youtube]: https://www.youtube.com/watch?v=w8RdTodkxDo
+[lein-transcriptor]: https://github.com/Olical/lein-transcriptor

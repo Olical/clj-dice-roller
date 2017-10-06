@@ -4,7 +4,6 @@
   :license {:name "Unlicense"
             :url "https://unlicense.org/"}
   :profiles {:dev {:source-paths ["src" "repls"]}}
-  :aliases {"repls" ["run" "-m" "repl-runner"]}
+  :plugins [[lein-transcriptor "1.0.0"]]
   :dependencies [[org.clojure/clojure "1.9.0-beta1"]
-                 [org.clojure/spec.alpha "0.1.123"]
                  [com.cognitect/transcriptor "0.1.5"]])
