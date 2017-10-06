@@ -1,6 +1,10 @@
-(defproject clj-dice-roller "0.1.0-SNAPSHOT"
-  :description "FIXME: write description"
-  :url "http://example.com/FIXME"
-  :license {:name "Eclipse Public License"
-            :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :dependencies [[org.clojure/clojure "1.8.0"]])
+(defproject dice-roller "0.1.0-SNAPSHOT"
+  :description "Rolls a set of dice (example of transcriptor)"
+  :url "https://github.com/Olical/clj-dice-roller"
+  :license {:name "Unlicense"
+            :url "https://unlicense.org/"}
+  :profiles {:dev {:source-paths ["src" "repls"]}}
+  :aliases {"repls" ["run" "-m" "repl-runner"]}
+  :dependencies [[org.clojure/clojure "1.9.0-beta1"]
+                 [org.clojure/spec.alpha "0.1.123"]
+                 [com.cognitect/transcriptor "0.1.5"]])
