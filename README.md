@@ -6,6 +6,8 @@ Check out the `dice-roller.core` namespace for more information.
 
 You can run the transcriptor repls with `lein repls`.
 
+The post for this repository can be found on [my blog][].
+
 ## Unlicenced
 
 Find the full [unlicense][] in the `UNLICENSE` file, but here's a snippet.
@@ -18,3 +20,4 @@ Do what you want. Learn as much as you can. Unlicense more software.
 
 [unlicense]: http://unlicense.org/
 [transcriptor]: https://github.com/cognitect-labs/transcriptor
+[my blog]: https://oli.me.uk/2017/10/06/an-introduction-to-transcriptor/
