@@ -4,6 +4,8 @@ Extremely simple Clojure library that rolls a set of dice for you. This is simpl
 
 Check out the `dice-roller.core` namespace for more information.
 
+You can run the transcriptor repls with `lein repls`.
+
 ## Unlicenced
 
 Find the full [unlicense][] in the `UNLICENSE` file, but here's a snippet.
